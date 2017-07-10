@@ -19,7 +19,7 @@ body {
 }
 
 .player {
-  max-width:750px;
+  max-width:950px;
   border:5px solid rgba(0,0,0,0.2);
   box-shadow:0 0 20px rgba(0,0,0,0.2);
   position: relative;
@@ -55,7 +55,7 @@ body {
 }
 
 .player__button:focus {
-  border-color: #ffc600;
+  border-color: #30fff8;
 }
 
 .player__slider {
@@ -99,7 +99,7 @@ body {
 
 .progress__filled {
   width:50%;
-  background:#ffc600;
+  background: linear-gradient(135deg, #1622c5 0%,#20c3ae 48%,#27ceca 100%);
   flex:0;
   flex-basis:50%;
 }
